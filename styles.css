@@ -301,6 +301,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 
 /* ---------- project ---------- */
+.project-card + .project-card { margin-top: 16px; }
 .project-card {
   display: flex;
   gap: 24px;
